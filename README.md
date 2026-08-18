@@ -71,7 +71,7 @@ Five classical supervised classification algorithms representing distinct mathem
 * **Description:** Aggregates predictions across an ensemble of decision trees trained on bootstrapped data subsets.
 * **Data Preprocessing:** Evaluated directly on unscaled features.
 
-## Evaluation Metrics Across Models
+## Evaluation Metrics Comparision Between Models 
 
 | Model | Accuracy | AUC-ROC | Precision | Recall | F1-Score | MCC |
 |:---|:---|:---|:---|:---|:---|:---|
@@ -81,7 +81,7 @@ Five classical supervised classification algorithms representing distinct mathem
 | **Naïve Bayes** | 0.8328 | 0.9376 | 0.7146 | **0.9587** | 0.8188 | 0.6946 |
 | **Random Forest** | 0.9197 | **0.9726** | **0.9419** | 0.8485 | 0.8928 | 0.8317 |
 
-## Model Performance Observations
+## Observations Based On Model Performance
 
 | ML Model Name | Observation about Model Performance |
 |:---|:---|
