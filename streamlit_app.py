@@ -76,12 +76,9 @@ if scaler is None:
 df = None
 if uploaded_file is not None:
     df = pd.read_csv(uploaded_file)
-    st.sidebar.success("Loaded uploaded dataset.")
-elif os.path.exists("test_data.csv"):
-    df = pd.read_csv("test_data.csv")
-    st.sidebar.info("Using local default test_data.csv.")
+    st.sidebar.success("Dataset loaded successfully!")
 else:
-    st.warning("Please upload a test_data.csv file to run evaluations.")
+    st.info("Please upload a `test_data.csv` file in the sidebar to view model evaluation metrics and predictions.")
     st.stop()
 
 if 'target' not in df.columns:
