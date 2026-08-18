@@ -1,4 +1,4 @@
-# Streamlit Machine Learning Dashboard: Email Spam Classification
+# ML-Assignment2 : Email Spam Classification
 
 ---
 
